@@ -3,7 +3,7 @@
 
 const numeros = [5, 50, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27];
 
-const numerosMaiores10 = numeros.filter(valor => valor > 10);
+const numerosMaiores10 = numeros.filter(valor => valor > 10); //retorna apenas true (em nova array) e false(nao adiciona em um novo array)
 
 console.log('numeros maiores que 10', numerosMaiores10);
 
